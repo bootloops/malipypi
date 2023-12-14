@@ -4,17 +4,10 @@ A simple bash script to automate removal of potentially harmful packages which m
 The script uses <b>sorted_packages.txt</b> as the list of unwanted packages. Update the list using a new-line for each entry. 
 
 ###### usage:
-<code> ]> chmod +x remove_malicious_packages.sh<br>
- ]> ./remove_malicious_packages
-</code>
+<code>Arch Linux<br>]> chmod +x remove_malicious_packages.sh<br>]> ./remove_malicious_packages</code>
 
 ###### written for arch linux, you can adapt it for your requirements.
-
-### Arch
- <li> uses <code>sudo pacman</code> </li>
- 
-### Debian 
- <li> would use <code>sudo apt</code></li>
+####### open remove_malicious_packages.sh with a text editor, and replace <code>pacman -Rs</code> with <code>apt-get remove --purge</code>
 
 #### ...etc
 
