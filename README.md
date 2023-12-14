@@ -1,6 +1,13 @@
 # malipypi
 
 A simple bash script to automate removal of potentially harmful packages which may have been installed by typo-error, that have been detected as malicious as of Dec 2023.
+The script uses <b>sorted_packages.txt</b> as the list of unwanted packages. Update the list using a new-line for each entry. 
+
+###### usage:
+<code>
+ ]> chmod +x remove_malicious_packages.sh<br>
+ ]> ./remove_malicious_packages
+</code>
 ###### written for arch linux, you can adapt it for your requirements.
 
 ### Arch
